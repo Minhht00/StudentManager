@@ -3,14 +3,13 @@ import java.util.Date;
 public class Students extends Humans{
     private int studentId;
     private String schoolName;
-    private Date timeStart;
+    private int timeStart;
     private double CGPA;
 
     public Students() {
     }
 
-    public Students(int id, String name, Date birthday, String address, double height, double weight, int studentId, String schoolName, Date timeStart, double CGPA) {
-        super(id, name, birthday, address, height, weight);
+    public Students(int studentId, String schoolName, int timeStart, double CGPA) {
         this.studentId = studentId;
         this.schoolName = schoolName;
         this.timeStart = timeStart;
