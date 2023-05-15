@@ -19,4 +19,16 @@ public class Humans {
         this.height = height;
         this.weight = weight;
     }
+
+    @Override
+    public String toString() {
+        return "Humans{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", birthday=" + birthday +
+                ", address='" + address + '\'' +
+                ", height=" + height +
+                ", weight=" + weight +
+                '}';
+    }
 }
